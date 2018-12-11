@@ -42,7 +42,7 @@ body {
     padding-bottom: 10px;
 }
 .header .menu li a:hover {
-    font-weight: 700;
+    /* font-weight: 700; */
     color:  #212121;
     border-bottom: 1px solid #212121; /* при большем зачении прыгает рамка*/
 }
@@ -96,8 +96,6 @@ body {
 .order-btn:hover {
     background: #ffffff url('img/arrow.png') no-repeat 173px 16px;
 }
-
-
 
 
 /* goods */
@@ -470,9 +468,6 @@ body {
     float: left;
     margin: 33px 10px 0 0;
 }
-
-
-
 
 
 /* footer */
