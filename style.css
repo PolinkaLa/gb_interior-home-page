@@ -491,13 +491,18 @@ body {
     text-transform: uppercase;
     margin-bottom: 25px;
 }
-.footer p {
+.footer p,
+.footer p a {
     color:  #212121;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     text-align: left;
     margin-bottom: 25px;
+    text-decoration: none;
+}
+.footer p a:hover{
+    text-decoration: underline;
 }
 .footer .contact,
 .footer .useful,
@@ -517,6 +522,9 @@ body {
 }
 .footer .useful li {
     list-style-type: none;
+}
+.footer .useful a:hover {
+    color:  #6c6c6c;
 }
 .footer .useful li a {
     display: block;
