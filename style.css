@@ -621,6 +621,17 @@ body {
     min-height:100%;
 }
 
+.menu h1 {
+    color:  #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+    padding-top: 90px;
+    padding-left: 98px;
+    clear: both;
+}
+
 .row {
     margin-right: 0;
     margin-left: 0;
