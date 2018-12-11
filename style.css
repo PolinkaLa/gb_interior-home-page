@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: unset;
 }
 
 html, body { 
@@ -571,12 +572,11 @@ body {
     cursor: pointer;
     border: none;
     background: transparent;
+    box-sizing: unset;
 }
 .footer .subscride form button:before {
     content: url('img/send.png');
   }
-/* url('img/send.png') no-repeat 335px 16px; */
-
 .footer .bottom-line {
     clear: both;
 }
@@ -625,4 +625,41 @@ body {
     margin-right: 0;
     margin-left: 0;
     margin: 0 auto;
+}
+.col-md {
+    border: 1px solid #9c9c9c;;
+    height: 370px;
+    width: 370px;
+    margin: 71px 30px 122px 0;
+    padding-top: 48px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.col-md h3 {
+    color:  #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    transform: scaleX(1.0041);
+}
+.col-md h4,
+.col-md a{
+    color:  #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;  
+    margin-bottom: 0; 
+}
+
+.col-md a{
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+}
+.col-md a:hover {color:  #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;
+    text-align: center;
 }
