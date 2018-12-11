@@ -476,6 +476,7 @@ body {
     height: 384px;
     padding-left: 99px;
     padding-top: 120px;
+    box-sizing: border-box;
 }
 .footer h3 {
     color:  #6c6c6c;
