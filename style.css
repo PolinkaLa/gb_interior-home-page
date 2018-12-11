@@ -542,22 +542,39 @@ body {
     margin-left: 78px;
     width: 363px;
 }
-.footer .subscride input {
+.footer .subscride form input {
     border-width: 1px;
     border-color:  #d9dee1;
     border-style: solid;
-    background:  #ffffff url('img/send.png') no-repeat 335px 16px;
+    background:  #ffffff;
     width: 368px;
     height: 46px;
     padding-left: 19px;
 }
-.footer .subscride input::placeholder {
+.footer .subscride form input::placeholder {
     color:  #6c6c6c;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     text-align: left;
 }
+.footer .subscride form {
+    position: relative;
+    width: 370px;
+  }
+  .footer .subscride form button {
+    position: absolute;
+    top: 16px;
+    right: 8px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+.footer .subscride form button:before {
+    content: url('img/send.png');
+  }
+/* url('img/send.png') no-repeat 335px 16px; */
+
 .footer .bottom-line {
     clear: both;
 }
