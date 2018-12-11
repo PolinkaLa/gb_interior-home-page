@@ -328,11 +328,6 @@ body {
 .goods .trending .grid .grid-row-2 .good-item:nth-child(3){
     background: url('img/product-6.jpg') no-repeat;
 }
-.goods .trending .grid .good-item a:hover{
-    outline: 1px solid #9c9c9c;
-    background:  #ffffff;
-    opacity: 0.9;
-}
 .goods .hot-dial {
     height: 800px;
     background: url('img/slider-1.jpg')
@@ -434,11 +429,6 @@ body {
 }
 .goods .some .grid .grid-row-2 .good-item:nth-child(2){
     background: url('img/product-5-sm.jpg') no-repeat;
-}
-.goods .some .grid .good-item a:hover{
-    outline: 1px solid #9c9c9c;
-    background:  #ffffff;
-    opacity: 0.9;
 }
 
 
