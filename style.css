@@ -618,7 +618,7 @@ body {
     background:  #f5f5f5;
 }
 
-.container-wrapper {
+.contact-wrapper .container-wrapper {
     min-height:100%;
 }
 
@@ -634,11 +634,12 @@ body {
 }
 
 .row {
-    margin-right: 0;
-    margin-left: 0;
     margin: 0 auto;
 }
-.col-md {
+.clear {
+    clear: both;
+}
+.contact-wrapper .col-md {
     border: 1px solid #9c9c9c;;
     height: 370px;
     width: 370px;
@@ -646,8 +647,9 @@ body {
     padding-top: 48px;
     text-align: center;
     box-sizing: border-box;
+    padding-left: 0;
 }
-.col-md h3 {
+.contact-wrapper .col-md h3 {
     color:  #212121;
     font-size: 21.91px;
     font-weight: 700;
@@ -655,8 +657,8 @@ body {
     text-align: center;
     transform: scaleX(1.0041);
 }
-.col-md h4,
-.col-md a{
+.contact-wrapper .col-md h4,
+.contact-wrapper .col-md a{
     color:  #6c6c6c;
     font-size: 14px;
     font-weight: 700;
@@ -664,34 +666,134 @@ body {
     margin-bottom: 0; 
 }
 
-.col-md a{
+.contact-wrapper .col-md a{
     margin-bottom: 10px;
     display: block;
     text-decoration: none;
 }
-.col-md a:hover {color:  #212121;
+.contact-wrapper .col-md a:hover {color:  #212121;
     font-size: 14px;
     font-weight: 700;
     line-height: 20.082px;
     text-align: center;
 }
 
-.catalog-wrapper  
-.goods .trending .grid .grid-row-1 .good-item:nth-child(1){
+.catalog-wrapper .row .col-md .good-item {
+    width: 370px;
+    height: 370px;
+}
+.catalog-wrapper .mini-menu li {
+    float: left;
+    list-style-type: none;
+    padding: 0 10px 0 10px;
+}
+.catalog-wrapper .mini-menu li a{
+    color:  #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 10px;
+}
+.catalog-wrapper .mini-menu li a:hover{
+    color:  #212121;
+    border-bottom: 2px solid #212121;
+}
+.catalog-wrapper .mini-menu {
+    padding-left: 98px;
+    padding-top: 71px;
+    padding-bottom: 72px;
+}
+.catalog-wrapper .row {
+    margin: 0 auto 30px auto;
+}
+
+.catalog-wrapper .row .row:nth-child(1) .col-md:nth-child(1){
     background: url('img/product-11.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;
 }
-.goods .trending .grid .grid-row-1 .good-item:nth-child(2){
+.catalog-wrapper .row .row:nth-child(1) .col-md:nth-child(2){
     background: url('img/product-21.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;
 }
-.goods .trending .grid .grid-row-1 .good-item:nth-child(3){
+.catalog-wrapper .row .row:nth-child(1) .col-md:nth-child(3){
     background: url('img/product-31.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;;
 }
-.goods .trending .grid .grid-row-2 .good-item:nth-child(1){
+
+
+
+.catalog-wrapper .row .row:nth-child(2) .col-md:nth-child(1){
     background: url('img/product-41.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;
 }
-.goods .trending .grid .grid-row-2 .good-item:nth-child(2){
+.catalog-wrapper .row .row:nth-child(2) .col-md:nth-child(2){
     background: url('img/product-5.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;
 }
-.goods .trending .grid .grid-row-2 .good-item:nth-child(3){
+.catalog-wrapper .row .row:nth-child(2) .col-md:nth-child(3){
     background: url('img/product-6.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;;
+}
+
+
+
+
+.catalog-wrapper .row .row:nth-child(3) .col-md:nth-child(1){
+    background: url('img/product-11.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;
+}
+.catalog-wrapper .row .row:nth-child(3) .col-md:nth-child(2){
+    background: url('img/product-21.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;
+}
+.catalog-wrapper .row .row:nth-child(3) .col-md:nth-child(3){
+    background: url('img/product-31.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;;
+}
+
+
+
+.catalog-wrapper .row .row:nth-child(4) .col-md:nth-child(1){
+    background: url('img/product-41.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;
+}
+.catalog-wrapper .row .row:nth-child(4) .col-md:nth-child(2){
+    background: url('img/product-5.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;
+}
+.catalog-wrapper .row .row:nth-child(4) .col-md:nth-child(3){
+    background: url('img/product-6.jpg') no-repeat;
+    padding-left: 0;
+    margin-right: 30px;;
+}
+.catalog-wrapper .row .col-md .hover-block {
+    width: 370px;
+    height: 370px; 
+}
+.catalog-wrapper .order-btn:hover {
+    color: #212121;
+    text-decoration: none;
+}
+.catalog-wrapper .refresh {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 140px;
+}
+
+.catalog-wrapper .refresh img:hover{
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
 }
